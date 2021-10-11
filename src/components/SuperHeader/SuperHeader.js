@@ -27,20 +27,19 @@ const Wrapper = styled.div`
 	color: ${COLORS.gray[300]};
 	background-color: ${COLORS.gray[900]};
 	display: flex;
-
-	${SearchInput} {
-		color: red;
-	}
+	padding: 10px 35px 10px 32px;
 `;
 
 const MarketingMessage = styled.span`
 	color: ${COLORS.white};
+	margin-right: auto;
 `;
 
 const HelpLink = styled.a`
 	color: inherit;
 	text-decoration: none;
 	outline-offset: 2px;
+	padding: 0 27px;
 
 	&:not(:focus-visible) {
 		outline: none;
