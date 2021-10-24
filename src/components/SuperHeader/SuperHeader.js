@@ -27,7 +27,8 @@ const Wrapper = styled.div`
 	color: ${COLORS.gray[300]};
 	background-color: ${COLORS.gray[900]};
 	display: flex;
-	padding: 10px 35px 10px 32px;
+	padding: 0px 32px;
+	height: 40px;
 `;
 
 const MarketingMessage = styled.span`
@@ -39,7 +40,7 @@ const HelpLink = styled.a`
 	color: inherit;
 	text-decoration: none;
 	outline-offset: 2px;
-	padding: 0 27px;
+	magrin: 0 24px;
 
 	&:not(:focus-visible) {
 		outline: none;
